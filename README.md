@@ -71,7 +71,7 @@ The results displayed currently are:
 ## Possible Improvements
 - Better separate the frontend and backend configurations, required environment variables, and dependencies (e.g., create separate pyproject.toml files for each).
 - Add unit tests, especially for the backend processing logic.
-- Add docstrings to all functions, and types to all variables, function inputs and outputs
+- Add docstrings to all functions, and types to all variables, function inputs and outputs.
 - Implement persistent user sessions.
 - Replace the REST protocol for frontend-to-backend communication with WebSocket for near-instant polling of backend results.
 - Use LocalStack Pro (which is not free) to fully test integration with AWS Cognito and AWS EKS locally.
